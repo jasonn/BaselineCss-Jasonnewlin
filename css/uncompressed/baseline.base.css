@@ -39,5 +39,5 @@ tr:nth-child(odd)								{ }
 
 /* html 5 */
 article, aside, header, hgroup,
-nav, section, footer							{ float: left; display: block; }
+nav, section, footer							{display: block; }
 figure											{ display: block; }

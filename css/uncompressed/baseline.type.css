@@ -4,29 +4,29 @@ Copyright (C) 2009 Stephane Curzi, ProjetUrbain.com
 Creative Commons Attribution-Share Alike 3.0 License
 */
 
-/******************** Baseline grid: 13/18px ********************/
-body								{ font-size: 75%; line-height: 1.5; /*12/18*/ }
+/******************** Baseline grid: 13/24px ********************/
+body								{ font-size: 100%; line-height: 1.5; /*12/18*/ }
 
 h1, h2, h3, h4, h5, h6				{ position: relative; }
-h1, h2								{ line-height: 36px; margin-bottom: 18px; }
-h1, h2, h3, h4						{ margin-top: 18px; }
-h3, h4, h5, h6						{ line-height: 18px; }
-h1									{ font-size: 36px; top: 5px; }
-h2									{ font-size: 28px; top: 8px; }
-h3									{ font-size: 22px; top: 1px; }
-h4									{ font-size: 18px; top: 2px; }
-h5									{ font-size: 15px; top: 4px; }
-h6									{ font-size: 13px; top: 5px; }
+h1, h2								{ line-height: 48px; margin-bottom: 24px; }
+h1, h2, h3, h4						{ margin-top: 24px; }
+h3, h4, h5, h6						{ line-height: 24px; }
+h1									{ font-size: 47px; top: 8px; }
+h2									{ font-size: 36px; top: 12px; line-height: 48px; }
+h3									{ font-size: 31px; top: 1px; }
+h4									{ font-size: 24px; top: 4px; }
+h5									{ font-size: 19px; top: 5px; }
+h6									{ font-size: 16px; top: 7px; }
 
-p, pre, address						{ font-size: 13px; line-height: 18px; position: relative; top: 5px; }
+p, pre, address						{ font-size: 16px; line-height: 24px; position: relative; top: 7px; }
 abbr, code, kbd,
 samp, small, var					{ line-height: 15px; }
-ul, ol, dl, dialog					{ font-size: 13px; line-height: 18px; position: relative; top: 5px; margin-top: 18px; margin-bottom: 18px; }
+ul, ol, dl, dialog					{ font-size: 16px; line-height: 24px; position: relative; top: 7px; margin-top: 24px; margin-bottom: 24px; }
 li ul, li ol						{ top: 0; margin-top: 0; margin-bottom: 0; }
 li h1, li h2, li h3,
 li h4, li h5, li h6,
 li p								{ top: 0; }
-form, legend, label					{ font-size: 13px; line-height: 18px; }
+form, legend, label					{ font-size: 16px; line-height: 24px; }
 legend								{ position: relative; top: 5px; }
 input, textarea						{ font-size: 12px; }
 
@@ -36,10 +36,10 @@ h2:first-child,
 h3:first-child,
 h4:first-child						{ margin-top: 0; }
 
-table								{ font-size: 13px; line-height: 18px; margin: 18px 0; }
-th, td								{ padding: 3px 12px; line-height: 30px; }
+table								{ font-size: 16px; line-height: 24px; margin: 24px 0 23px; }
+th, td								{ padding: 4px 12px; line-height: 40px; }
 th									{ background: rgba(0, 0, 0, 0.2); }
 tr:nth-child(even)					{ background: rgba(0, 0, 0, 0.1); }
 tr:nth-child(odd)					{ }
 
-hr									{ position: relative; height: 4px; margin: 18px 0 14px 0; }
+hr									{ position: relative; height: 4px; margin: 25px 0 19px 0; }

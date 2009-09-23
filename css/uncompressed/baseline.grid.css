@@ -9,18 +9,18 @@ Creative Commons Attribution-Share Alike 3.0 License
 #page:after			{ content: "."; display: block; height: 0; clear: both; visibility: hidden; }
 
 /* Base column markup */
-.column				{ margin-left: 18px; display: block; float: left; } /* 1.5em */
+.column				{ margin-left: 24px; display: block; float: left; } /* 1.5em */
 .colgroup			{ display: block; float: left; }
 .first				{ margin-left: 0; clear: left; }
-.gutter				{ margin-left: 18px; } /* 1.5em */
+.gutter				{ margin-left: 24px; } /* 1.5em */
 .no-gutter			{ margin-left: 0; }
 .align-left			{ float: left; }
 .align-right		{ float: right; text-align: right; }
 header,
 section,
-div					{ padding-bottom: 18px; }
+div					{ padding-bottom: 24px; }
 
-.leading			{ margin-bottom: 18px; } /* 1.5em */
+.leading			{ margin-bottom: 24px; } /* 1.5em */
 .noleading			{ margin-bottom: 0 !important; }		
 
 /* Base column width */
@@ -40,6 +40,6 @@ div					{ padding-bottom: 18px; }
 .unitx8				{ width: 990px; } /* 82.5em, Same as width4 */
 
 /* CSS3 columns */
-.columnsx2			{ -webkit-column-count: 2; -webkit-column-gap: 18px; -moz-column-count: 2; -moz-column-gap: 18px; column-count: 2; column-gap: 18px; }
-.columnsx4			{ -webkit-column-count: 4; -webkit-column-gap: 18px; -moz-column-count: 4; -moz-column-gap: 18px; column-count: 4; column-gap: 18px; }
+.columnsx2			{ -webkit-column-count: 2; -webkit-column-gap: 24px; -moz-column-count: 2; -moz-column-gap: 24px; column-count: 2; column-gap: 24px; }
+.columnsx4			{ -webkit-column-count: 4; -webkit-column-gap: 24px; -moz-column-count: 4; -moz-column-gap: 24px; column-count: 4; column-gap: 24px; }
 
