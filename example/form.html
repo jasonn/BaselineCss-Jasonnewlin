@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Baseline - Form</title>
+
+		<link type="text/css" rel="stylesheet" media="screen" href="../css/uncompressed/baseline.reset.css">
+		<link type="text/css" rel="stylesheet" media="screen" href="../css/uncompressed/baseline.base.css">
+		<link type="text/css" rel="stylesheet" media="screen" href="../css/uncompressed/baseline.type.css">
+		<link type="text/css" rel="stylesheet" media="screen" href="../css/uncompressed/baseline.form.css">
+		<link type="text/css" rel="stylesheet" media="screen" href="../css/uncompressed/baseline.grid.css">
+		
+		<style>
+			#page { margin: 36px auto; }
+			.layout-grid			{ background: url(images/baseline+column.png) repeat 0 1px; }
+		</style>
+
+		<script type="text/javascript" src="scripts/html5.js"></script>
+	</head>
+
+	<body class="page-form">
+		<div id="page" class="layout-grid">
+			<article id="main-content" class="width4">
+				<header class="column width2 first">
+					<h1>Form</h1>
+				</header>
+				<form class="width4">
+					<section class="column first width2">
+						<h2>Standard input and labels</h2>
+						<fieldset class="width2">
+							<legend>Basic information</legend>	
+							<label class="width1 first field-first">First Name<input type="text" name="first_name" value="" class="text"></label>
+							<label class="width1 field-last">Last Name<input type="text" name="last_name" value="" class="text"></label>
+							<label class="width2 first field-address">Address<input type="text" name="address" value="" class="text"></label>
+							<label class="width1 first field-city">City<input type="text" name="city" value="" class="text"></label>
+							<label class="unitx1 field-state">State
+								<select name="state">
+									<option value="AB">Alberta</option>
+									<option value="BC">British Columbia</option>
+									<option value="MB">Manitoba</option>
+									<option value="NB">New Brunswick</option>
+									<option value="NL">Newfoundland and Labrador</option>
+									<option value="NT">Northwest Territories</option>
+									<option value="NS">Nova Scotia</option>
+									<option value="NU">Nunavut</option>
+									<option value="ON">Ontario</option>
+									<option value="PE">Prince Edward Island</option>
+									<option selected value="QC">Quebec</option>
+									<option value="SK">Saskatchewan</option>
+									<option value="YT">Yukon</option>
+								</select>
+							</label>
+							<label class="unitx1 field-zip">Zip Code<input type="text" name="zip" value="" class="text"></label>
+							<label class="width1 first field-phone">Phone<input type="text" name="phone" value="" class="text"></label>
+							<label class="width1 field-call">Cell<input type="text" name="cell" value="" class="text"></label>
+							<label class="width2 first field-email">Email<input type="text" name="email" value="" class="text"></label>
+							<label class="width1 first field-password">Password<input type="password" name="password" value="" class="text"></label>
+							<label class="width1 field-password">Retype password<input type="password" name="re-password" value="" class="text"></label>
+							<label class="width2 first singleline field-file">Choose file<input type="file" class="file" name="file"></label>
+						</fieldset>
+					</section>
+					<section class="column width2">
+						<h2>Textarea, radio button and checkbox</h2>
+						<fieldset class="width2">
+							<legend>More information</legend>	
+							<label class="width2 multilinex6 first field-describe">Description
+								<textarea name="describe"></textarea>
+							</label>
+						</fieldset>
+						<fieldset class="width2">
+							<legend>Lorem ipsum dolor sit amet</legend>	
+							<input id="radiobutton_1" type="radio" name="radiobutton" value="" class="radio">
+							<label for="radiobutton_1" class="radio-label">Lorem ipsum dolor sit amet</label>
+							<input id="radiobutton_2" type="radio" name="radiobutton" value="" class="radio">
+							<label for="radiobutton_2" class="radio-label">Ut wisi enim ad minim veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat</label>
+							<input id="checkbox_1" type="checkbox" name="subscribe" value="y" class="checkbox">
+							<label for="checkbox_1" class="checkbox-label">Lorem ipsum dolor sit amet</label>
+							<input id="checkbox_2" type="checkbox" name="subscribe" value="y" class="checkbox">
+							<label for="checkbox_2" class="checkbox-label">Ut wisi enim ad minim veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat</label>
+						</fieldset>
+						<fieldset class="width2 align-right">
+							<input type="submit" name="submit" value="Submit">
+							<input type="button" name="" value="button">
+							<input type="reset" name="" value="reset">
+						</fieldset>
+					</section>
+					<section class="column width4 first">
+						<h2>Different size input</h2>
+						<fieldset class="width4">
+							<label class="width1 first">Width 1<input type="text" name="width1" value="" class="text"></label>
+							<label class="width2 first">Width 2<input type="text" name="width2" value="" class="text"></label>
+							<label class="width3 first">Width 3<input type="text" name="width3" value="" class="text"></label>
+							<label class="width4 first">Width 4<input type="text" name="width4" value="" class="text"></label>
+						</fieldset>
+						<fieldset class="width4">
+							<label class="unitx1 first">1 unit<input type="text" name="unitx1" value="" class="text"></label>
+							<label class="unitx2 first">2 units<input type="text" name="unitx2" value="" class="text"></label>
+							<label class="unitx3 first">3 units<input type="text" name="unitx3" value="" class="text"></label>
+							<label class="unitx4 first">4 units<input type="text" name="unitx4" value="" class="text"></label>
+							<label class="unitx5 first">5 units<input type="text" name="unitx5" value="" class="text"></label>
+							<label class="unitx6 first">6 units<input type="text" name="unitx6" value="" class="text"></label>
+							<label class="unitx7 first">7 units<input type="text" name="unitx7" value="" class="text"></label>
+							<label class="unitx8 first">8 units<input type="text" name="unitx8" value="" class="text"></label>
+						</fieldset>
+					</section>
+				</form>
+			</article>
+			<footer class="width4 clear">
+				<p><small>&copy; 2009 St&eacute;phane Curzi, <a href="http://www.projeturbain.com" target="_blank">ProjetUrbain.com</a>.<br>
+					Content of this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution-Share Alike 3.0 Unported License</a>.</small></p>
+			</footer>
+		</div>
+	</body>
+</html>

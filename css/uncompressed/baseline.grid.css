@@ -1,0 +1,45 @@
+/*
+Baseline - a designer framework
+Copyright (C) 2009 Stephane Curzi, ProjetUrbain.com
+Creative Commons Attribution-Share Alike 3.0 License
+*/
+
+/******************** Grid ********************/
+#page				{ width: 990px; position: relative; } /* 82.5em */
+#page:after			{ content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+/* Base column markup */
+.column				{ margin-left: 18px; display: block; float: left; } /* 1.5em */
+.colgroup			{ display: block; float: left; }
+.first				{ margin-left: 0; clear: left; }
+.gutter				{ margin-left: 18px; } /* 1.5em */
+.no-gutter			{ margin-left: 0; }
+.align-left			{ float: left; }
+.align-right		{ float: right; text-align: right; }
+header,
+section,
+div					{ padding-bottom: 18px; }
+
+.leading			{ margin-bottom: 18px; } /* 1.5em */
+.noleading			{ margin-bottom: 0 !important; }		
+
+/* Base column width */
+.width1				{ width: 234px; } /* 19.5em */
+.width2				{ width: 486px; } /* 40.5em */
+.width3				{ width: 738px; } /* 61.5em */
+.width4				{ width: 990px; } /* 82.5em */
+
+/* Base column unit, 2 units = 1 column */
+.unitx1				{ width: 108px; } /* 9em */
+.unitx2				{ width: 234px; } /* 19.5em, Same as width1 */
+.unitx3				{ width: 360px; } /* 30em */
+.unitx4				{ width: 486px; } /* 40.5em, Same as width2 */
+.unitx5				{ width: 612px; } /* 51em */
+.unitx6				{ width: 738px; } /* 61.5em, Same as width3 */
+.unitx7				{ width: 864px; } /* 72em */
+.unitx8				{ width: 990px; } /* 82.5em, Same as width4 */
+
+/* CSS3 columns */
+.columnsx2			{ -webkit-column-count: 2; -webkit-column-gap: 18px; -moz-column-count: 2; -moz-column-gap: 18px; column-count: 2; column-gap: 18px; }
+.columnsx4			{ -webkit-column-count: 4; -webkit-column-gap: 18px; -moz-column-count: 4; -moz-column-gap: 18px; column-count: 4; column-gap: 18px; }
+
